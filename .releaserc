@@ -1,4 +1,10 @@
 {
   "branches": ["main"],
-  "repositoryUrl": "https://github.com/oeyoews/semantictest.git"
+  "repositoryUrl": "https://github.com/oeyoews/semantictest.git",
+  "plugins": [
+    ["@semantic-release/npm", {
+      "npmPublish": false,
+      "tarballDir": "dist",
+    }]
+  ]
 }
