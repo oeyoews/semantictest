@@ -14,3 +14,4 @@ https://zqblog.beaf.tech/semantic-release/
 * [x] learn how to use commit to trigger semantic-release actions
 
 * maybe no work
+* add release name customize
