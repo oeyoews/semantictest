@@ -10,3 +10,5 @@ add cache in workflows
 https://github.com/semantic-release/npm#options
 
 https://zqblog.beaf.tech/semantic-release/
+
+* [ ] learn how to use commit to trigger semantic-release action
