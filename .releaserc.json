@@ -4,6 +4,8 @@
   "branches": ["main"],
   "repositoryUrl": "https://github.com/oeyoews/semantictest.git",
   "plugins": [
+    "@semantic-release/commit-analyzer",
+		"@semantic-release/release-notes-generator",
     [
       "@semantic-release/npm",
       {
