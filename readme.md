@@ -6,3 +6,5 @@ https://github.com/ad-m/github-push-action/issues/96
 
 add cache in workflows
 
+
+https://github.com/semantic-release/npm#options

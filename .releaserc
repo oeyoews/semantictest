@@ -1,4 +1,6 @@
 {
+  "dryRun": false,
+  "debug": false,
   "branches": ["main"],
   "repositoryUrl": "https://github.com/oeyoews/semantictest.git",
   "plugins": [
