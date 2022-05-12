@@ -8,6 +8,13 @@ jobs:
     name: Release
     runs-on: ubuntu-latest
     steps:
+      - name: Cache dependencies
+        uses: actions/cache@v2
+        with:
+          path: |
+            **/node_modules
+          #key: ${{ runner.os }}-${{ hashFiles('**/package.json') }}
+          key: ${{ runner.os }}-${{ hashFiles('**/yarn.lock') }}
       - name: Checkout
         uses: actions/checkout@v2
         with:
@@ -23,10 +30,3 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: npx semantic-release
-      - name: Cache dependencies
-        uses: actions/cache@v2
-        with:
-          path: |
-            **/node_modules
-          #key: ${{ runner.os }}-${{ hashFiles('**/package.json') }}
-          key: ${{ runner.os }}-${{ hashFiles('**/yarn.lock') }}
