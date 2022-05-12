@@ -12,6 +12,6 @@ https://github.com/semantic-release/npm#options
 https://zqblog.beaf.tech/semantic-release/
 
 * [x] learn how to use commit to trigger semantic-release actions
-
+  https://semantic-release.gitbook.io/semantic-release/
 * maybe no work
 * add release name customize
