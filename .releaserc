@@ -1,3 +1,4 @@
 {
-  "branches": ["main"]
+  "branches": ["main"],
+  "remoteUrl": "https://github.com/oeyoews/semantictest.git"
 }
