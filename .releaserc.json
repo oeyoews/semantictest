@@ -1,0 +1,21 @@
+{
+  "dryRun": false,
+  "debug": false,
+  "branches": ["main"],
+  "repositoryUrl": "https://github.com/oeyoews/semantictest.git",
+  "plugins": [
+    [
+      "@semantic-release/npm",
+      {
+        "npmPublish": false,
+        "tarballDir": "dist",
+      }
+    ],
+    [
+      "@semantic-release/github",
+      {
+        "assets": "dist/*.tgz"
+      }
+    ],
+  ]
+}

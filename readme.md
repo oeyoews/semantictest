@@ -8,3 +8,5 @@ add cache in workflows
 
 
 https://github.com/semantic-release/npm#options
+
+https://zqblog.beaf.tech/semantic-release/
