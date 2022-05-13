@@ -6,6 +6,7 @@
   "extends": "@semantic-release/gitlab-config",
   "plugins": [
     "@semantic-release/commit-analyzer",
+    "@semantic-release/git",
     "@semantic-release/release-notes-generator",
     [
       "@semantic-release/npm",
@@ -14,15 +15,14 @@
       }
     ],
     [
-      "@semantic-release/changelog",
+      "@semantic-release/github",
       {
-        "changelogTitle": "# Changelog\n\nAll notable changes to this project will be documented in this file. See\n[Conventional Commits](https://conventionalcommits.org) for commit guidelines."
       }
     ],
     [
-      "@semantic-release/github",
+      "@semantic-release/changelog",
       {
-        "assets": "dist/*.tgz"
+        "changelogTitle": "# Changelog\n\nAll notable changes to this project will be documented in this file. See\n[Conventional Commits](https://conventionalcommits.org) for commit guidelines."
       }
     ]
   ]
