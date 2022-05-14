@@ -3,7 +3,6 @@
   "debug": false,
   "branches": ["main"],
   "repositoryUrl": "https://github.com/oeyoews/semantictest.git",
-  "extends": "@semantic-release/gitlab-config",
   "plugins": [
     "@semantic-release/commit-analyzer",
     "@semantic-release/git",
