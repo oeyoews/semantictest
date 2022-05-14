@@ -34,9 +34,8 @@ jobs:
 
       - name: Install dependencies
         if: steps.yarn-cache.outputs.cache-hit != 'true'
-        run:
-          - echo "😢 Fail"
-          - yarn install --frozen-lockfile
+        run: yarn install --frozen-lockfile
+          #- echo "😢 Fail"
       - name: Release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
