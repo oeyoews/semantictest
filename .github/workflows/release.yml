@@ -40,5 +40,5 @@ jobs:
         uses: actions/cache@v2
         with:
           path: |
-            **/.yarn-cache
+            **/node_modules
         key: ${{ runner.os }}-${{ hashFiles('**/yarn.lock') }}
