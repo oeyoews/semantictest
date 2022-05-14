@@ -13,13 +13,15 @@ jobs:
         #run: echo "::set-output name=dir::$(yarn cache dir)"
 
           #https://github.com/actions/cache/blob/main/examples.md#node---yarn
-      - uses: actions/cache@v3
-        #id: yarn-cache # use this to check for `cache-hit` (`steps.yarn-cache.outputs.cache-hit != 'true'`)
+      - name: Cache dependencies
+        uses: actions/cache@v3
+          #id: yarn-cache # use this to check for `cache-hit` (`steps.yarn-cache.outputs.cache-hit != 'true'`)
         with:
           #path: ${{ steps.yarn-cache-dir-path.outputs.dir }}
-          path: .yarn-cache
+          path: |
+            .yarn-cache
         key: ${{ runner.os }}-yarn-${{ hashFiles('**/yarn.lock') }}
-        #restore-keys: |
+          #restore-keys: |
           #${{ runner.os }}-yarn-
 
 
