@@ -1,6 +1,6 @@
 {
   "name": "semantictest",
-  "version": "3.0.5",
+  "version": "3.0.6",
   "main": "index.js",
   "repository": "https://github.com/oeyoews/semantictest.git",
   "author": "oeyoews <jyao4783@gmail.com>",
