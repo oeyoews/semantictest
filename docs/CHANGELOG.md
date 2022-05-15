@@ -1,3 +1,10 @@
+## [4.0.2](https://github.com/oeyoews/semantictest/compare/v4.0.1...v4.0.2) (2022-05-15)
+
+
+### Bug Fixes
+
+* use git assets to controll version ([ab9342d](https://github.com/oeyoews/semantictest/commit/ab9342dec39f2d1ab1f92b51d546a1702ae0c488))
+
 ## [4.0.1](https://github.com/oeyoews/semantictest/compare/v4.0.0...v4.0.1) (2022-05-15)
 
 
