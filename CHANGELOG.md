@@ -1,3 +1,10 @@
+# [4.4.0](https://github.com/oeyoews/semantictest/compare/v4.3.0...v4.4.0) (2022-05-18)
+
+
+### Features
+
+* test branch merge ([60a4048](https://github.com/oeyoews/semantictest/commit/60a4048a717e5f802665d7a7d85e248429606231))
+
 # [4.3.0](https://github.com/oeyoews/semantictest/compare/v4.2.3...v4.3.0) (2022-05-18)
 
 
