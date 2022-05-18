@@ -1,3 +1,10 @@
+## [4.5.2](https://github.com/oeyoews/semantictest/compare/v4.5.1...v4.5.2) (2022-05-18)
+
+
+### Bug Fixes
+
+* try ([749a488](https://github.com/oeyoews/semantictest/commit/749a488bc4fe6d04bdf08300a7f371a17fdd1840))
+
 ## [4.5.1](https://github.com/oeyoews/semantictest/compare/v4.5.0...v4.5.1) (2022-05-18)
 
 
