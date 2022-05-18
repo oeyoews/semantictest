@@ -1,3 +1,10 @@
+# [4.5.0](https://github.com/oeyoews/semantictest/compare/v4.4.0...v4.5.0) (2022-05-18)
+
+
+### Features
+
+* add success comment ([4f7051f](https://github.com/oeyoews/semantictest/commit/4f7051f4f5768a5d300cb02116a7efb42bed3f94))
+
 # [4.4.0](https://github.com/oeyoews/semantictest/compare/v4.3.0...v4.4.0) (2022-05-18)
 
 
