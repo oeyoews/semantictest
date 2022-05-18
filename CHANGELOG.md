@@ -1,3 +1,10 @@
+# [4.3.0](https://github.com/oeyoews/semantictest/compare/v4.2.3...v4.3.0) (2022-05-18)
+
+
+### Features
+
+* this is a merge --no-ff test ([b711cf6](https://github.com/oeyoews/semantictest/commit/b711cf69c0c8a98d8b0c0e0fc89c71ff5e74de94))
+
 ## [4.2.3](https://github.com/oeyoews/semantictest/compare/v4.2.2...v4.2.3) (2022-05-18)
 
 
