@@ -1,3 +1,10 @@
+## [4.2.2](https://github.com/oeyoews/semantictest/compare/v4.2.1...v4.2.2) (2022-05-18)
+
+
+### Bug Fixes
+
+* test merge ([96a8e0f](https://github.com/oeyoews/semantictest/commit/96a8e0fb3da7cf0d7a4632160fb7db62a344ad97))
+
 ## [4.2.1](https://github.com/oeyoews/semantictest/compare/v4.2.0...v4.2.1) (2022-05-18)
 
 
