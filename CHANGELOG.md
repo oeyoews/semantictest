@@ -1,3 +1,10 @@
+## [4.5.1](https://github.com/oeyoews/semantictest/compare/v4.5.0...v4.5.1) (2022-05-18)
+
+
+### Bug Fixes
+
+* add success step ([ca0ad9c](https://github.com/oeyoews/semantictest/commit/ca0ad9cf600e4a43f71e45baa588508dd1b842d4))
+
 # [4.5.0](https://github.com/oeyoews/semantictest/compare/v4.4.0...v4.5.0) (2022-05-18)
 
 
