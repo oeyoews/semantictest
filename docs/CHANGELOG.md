@@ -1,3 +1,10 @@
+# [4.1.0](https://github.com/oeyoews/semantictest/compare/v4.0.2...v4.1.0) (2022-05-18)
+
+
+### Features
+
+* test ([c37217c](https://github.com/oeyoews/semantictest/commit/c37217c843eabcb9ef1adcf9d4faab97e9a47c4c))
+
 ## [4.0.2](https://github.com/oeyoews/semantictest/compare/v4.0.1...v4.0.2) (2022-05-15)
 
 
