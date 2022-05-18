@@ -16,7 +16,10 @@
     [
       "@semantic-release/github",
       {
-        "successComment": ":tada: This issue has been resolved in version ${nextRelease.version} :tada:\n\nThe release is available on [GitHub release](<github_release_url>)"
+        "success":
+        {
+          "successComment": ":tada: This issue has been resolved in version ${nextRelease.version} :tada:\n\nThe release is available on [GitHub release](<github_release_url>)"
+        }
       }
     ],
     [
