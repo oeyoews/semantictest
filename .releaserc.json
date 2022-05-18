@@ -3,6 +3,7 @@
   "debug": false,
   "branches": ["main"],
   "repositoryUrl": "https://github.com/oeyoews/semantictest.git",
+  "successComment": ":tada: This issue has been resolved in version ${nextRelease.version} :tada:\n\nThe release is available on [GitHub release](<github_release_url>)",
   "plugins": [
     "@semantic-release/commit-analyzer",
     "@semantic-release/git",
@@ -16,10 +17,6 @@
     [
       "@semantic-release/github",
       {
-        "success":
-        {
-          "successComment": ":tada: This issue has been resolved in version ${nextRelease.version} :tada:\n\nThe release is available on [GitHub release](<github_release_url>)"
-        }
       }
     ],
     [
