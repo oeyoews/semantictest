@@ -23,3 +23,7 @@
 * update package
 
 * test(gpg test)
+
+## Links
+
+https://github.com/semantic-release/semantic-release/issues/1949#issuecomment-878589272
