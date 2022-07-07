@@ -1,3 +1,5 @@
+## [4.5.3](https://github.com/oeyoews/semantictest/compare/v4.5.2...v4.5.3) (2022-07-07)
+
 ## [4.5.2](https://github.com/oeyoews/semantictest/compare/v4.5.1...v4.5.2) (2022-05-18)
 
 
