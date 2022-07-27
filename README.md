@@ -33,3 +33,5 @@ https://github.com/semantic-release/semantic-release/issues/1949#issuecomment-87
 - test
 - temo
 - merge
+- test
+- test2
